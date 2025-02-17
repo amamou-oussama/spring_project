@@ -12,7 +12,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@AllArgsConstructor
+@AllArgsConstructor  //Annotation
 @NoArgsConstructor
 public class Foyer {
     @Id
