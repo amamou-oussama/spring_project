@@ -5,7 +5,11 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Autowired;
+import tn.esprit.tpfoyer.repository.IBlocRepository;
+import tn.esprit.tpfoyer.service.IBlocService;
 
+import java.util.List;
 import java.util.Set;
 
 @Entity

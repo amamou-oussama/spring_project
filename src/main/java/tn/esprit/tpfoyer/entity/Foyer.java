@@ -5,13 +5,16 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import tn.esprit.tpfoyer.service.IFoyerService;
+
+import java.util.List;
 
 @Entity
 @Getter
 @Setter
 @AllArgsConstructor  //Annotation
 @NoArgsConstructor
-public class Foyer {
+public class Foyer{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long idFoyer;
@@ -23,4 +26,5 @@ public class Foyer {
 
     @ManyToOne
     private Bloc bloc;
+
 }
